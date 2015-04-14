@@ -8,8 +8,11 @@ $_SESSION["password"] = $_POST["password"];
 //if($_SERVER["REQUEST_METHOD"] == "POST"){
 //  $password = $_REQUEST["password"];
 if($_SESSION["password"] == $password){
+	 session_destroy();
   ?>
+ 
   <h1>Welcome!Yaaaa</h1>
+  <p><a href="http://mykhabarovsk.com/itc260/assignment/session/">Go back</a></p>
   <?php
 
 }else {

@@ -12,7 +12,7 @@
 <table>
 <tr>
 <td><label for="password">Enter the password</label></td>
-<td><input name="password" value="LogIn">
+<td><input name="password" value="">
 </tr>
 <td><button>SUBMIT</button></td>
 </tr>
