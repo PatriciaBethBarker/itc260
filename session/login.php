@@ -8,13 +8,13 @@ $_SESSION["password"] = $_POST["password"];
 //if($_SERVER["REQUEST_METHOD"] == "POST"){
 //  $password = $_REQUEST["password"];
 if($_SESSION["password"] == $password){
-	 session_destroy();
   ?>
- 
-  <h1>Welcome!Yaaaa</h1>
-  <p><a href="http://mykhabarovsk.com/itc260/assignment/session/">Go back</a></p>
-  <?php
 
+  <h1>Welcome!Yaaaa</h1>
+  <p>This is our flow chart <a href="http://mykhabarovsk.com/itc260/assignment/session/flowchart.pdf">A3: Session Passphrase</p>
+  <img src="flowchart.jpg" />
+  <p><a href="logout.php">Log out</a></p>
+  <?php
 }else {
   $error = "Username or Password is invalid";
   ?>
